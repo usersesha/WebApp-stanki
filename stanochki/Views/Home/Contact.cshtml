@@ -1,0 +1,58 @@
+﻿using stanochki.Models;
+@model stanochki.Models.Offices
+@{
+    ViewBag.Title = "Связь с нами";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>Вы можете связаться с нами различными способами.</br>Можете приехать к нам в офис, расположенный в вашем районе или ближайшем. </br>А так же вы можете позвонить нам на горячую линию и проконсультироваться.</h3>
+@*@Html.RenderPartial("Offices", (ViewContext)(ViewBag.Offices));*@
+
+@if (Session["Rights"] == "worker")
+{<p>
+        @Html.ActionLink("Добавить Офис", "Create")
+    </p>}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.region)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.schedule)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.number)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.region)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.schedule)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.number)
+            </td>
+            @if (Session["Rights"] == "worker")
+            {
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id_office }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.id_office }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id_office })
+                </td>
+            }
+        </tr>
+    }
+
+</table>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7dbb5c49e431318acd6eb28cbb31b109d1fb91acb338515798afc428c91b9672&amp;width=700&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>

@@ -1,0 +1,50 @@
+﻿@model stanochki.Models.Offices
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Offices</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.region)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.region)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.schedule)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.schedule)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.number)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_office }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

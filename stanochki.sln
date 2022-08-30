@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stanochki", "stanochki\stanochki.csproj", "{79166CE6-BFD3-47D0-8090-9E3712D9CBBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stanochki.Tests", "stanochki.Tests\stanochki.Tests.csproj", "{1EA8B70A-7119-4789-90BA-46154E99DAF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79166CE6-BFD3-47D0-8090-9E3712D9CBBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79166CE6-BFD3-47D0-8090-9E3712D9CBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79166CE6-BFD3-47D0-8090-9E3712D9CBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79166CE6-BFD3-47D0-8090-9E3712D9CBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA8B70A-7119-4789-90BA-46154E99DAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA8B70A-7119-4789-90BA-46154E99DAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA8B70A-7119-4789-90BA-46154E99DAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA8B70A-7119-4789-90BA-46154E99DAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5401B76-0933-4017-A023-9FD5A5918BB1}
+	EndGlobalSection
+EndGlobal

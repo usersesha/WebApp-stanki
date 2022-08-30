@@ -1,0 +1,50 @@
+﻿@model stanochki.Models.Users
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Users</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.middlen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.middlen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Entry.pass)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Entry.pass)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Offices.region)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Offices.region)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

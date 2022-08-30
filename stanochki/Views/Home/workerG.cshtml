@@ -1,0 +1,78 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+    <p class="lead">@ViewBag.Message1</p>
+
+    <main role="main">
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron blck-outline-primary">
+            <div class="container m-lg-5">
+                <h1 class="display-3">Друзья, у нас новость!</h1><br />
+                <p class="blockquote">
+                    С 17 по 31 марта 2021 года у вас есть возможность прийти в главный оффис <br />в Петроградском районе и запросить прибавку к зарплате! <br />
+                    <br />Важно! <br />Можно сделать запрос на прибавку к зарплате при следующих условиях:<br />1) Вы - ветеран ВОВ.<br />
+                    2) Вы - член многодетной семьи.<br />3) Вы - инвалид 3 группы и выше.<br />
+                    4) Вы потеряли конечность на рабочем месте.<br />По вопросам звонить по номеру 8(900)555-34-30.
+                </p>
+                <br /><br />
+                @Html.ActionLink("Как найти оффис »", "Index", "Offices", null,
+             new { @class = "btn btn-primary btn-lg" })<br /><br /><br /><br /><br />
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h1 class="display-3 text-center">Мы вами гордимся!</h1><br /><br />
+            <div class="row w-100 my-md-3 pl-md-3 row-cols-1">
+                <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center w-50">
+                    
+                    <img src="https://c.pxhere.com/photos/a8/14/master_worker_repairman_sweat_labor-1163712.jpg!d" 
+                         style="width: 70%; height: 400px; border-radius:50%;"></img>
+                    <div class="my-3 p-3">
+                        <h2 class="display-5">Анатолий</h2>
+                        <p class="lead">За прошлый месяц починил 53 станка.<br/>Премия - 17 000 рублей.</p>
+                    </div>
+                </div>
+                <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white w-50">
+                    
+                    <img src="https://c.pxhere.com/photos/e3/5d/construction_worker_metal_grinder_labor_build_job_person-904496.jpg!d" 
+                         style="width: 90%;height: 500px;border-radius: 50%;"></img>
+                    <div class="my-3 py-3">
+                        <h2 class="display-5">Виктор</h2>
+                        <p class="lead">За прошлый месяц починил 100 станков.<br />Премия - 25 000 рублей.</p>
+                    </div>
+                </div><br /><br /><br /><br /><br />
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h1 class="display-3 text-center">Повышение квалификации</h1><br /><br /><br />
+            <!-- Example row of columns -->
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <h2>Токарные станки</h2>
+                    <img class="bd-placeholder-img card-img-top" src="https://bpk-spb.ru/upload/iblock/1c6/1c64f34d606a7ffec8c7f2ebe41cc2d4.png" alt="Image" width="225" height="225"
+                         slice" focusable="true">
+                    <p>Для современного ремонта на каждый токарный станок разрабатывается график планово-предупредительных ремонтов (ППР) и объем ремонтно-профилактических работ в условиях нормальной эксплуатации и грамотного обслуживания согласно техническому руководству по эксплуатации. </p>
+                    <p><a class="btn btn-outline-primary" href="https://www.haascnc.com/ru/HFO/HFO-Ukraine/training.html" role="button">Записаться »</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Станки с ЧПУ</h2>
+                    <img class="bd-placeholder-img card-img-top" src="https://bpk-spb.ru/upload/iblock/f9a/f9ab8d049851d4543dec64f104e33b39.png" alt="Image" width="225" height="225"
+                         slice" focusable="true">
+                    <p>Обслуживание станков с ЧПУ – комплекс мер, направленных на поддержание станочного оборудования в работоспособном состоянии и устранение возможных неполадок. ЧПУ станки – сложные приборы, обеспечивающие автономную или полуавтономную обработку заготовок с высокой точностью. </p>
+                    <p><a class="btn btn-outline-primary" href="https://rusnc.ru/курс-наладка-обслуживание-и-ремонт-чпу/" role="button">Записаться »</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Прессы</h2>
+                    <img class="bd-placeholder-img card-img-top" src="https://bpk-spb.ru/upload/iblock/9fc/9fc9ee34ce698919d3dcc560b96bb875.png" alt="Image" width="225" height="225"
+                         slice" focusable="true">
+                    <p>Гидравлическое промышленное оборудование стоит достаточно дорого, стоимость некоторых прессов очень велика, а потому ремонт гидросистем является услугой нужной и востребованной. Повысьте свою квалификацию и помогите нам продолжать отношения с обучающими компаниями. </p>
+                    <p><a class="btn btn-outline-primary" href="https://fixit-plus.ru/course-promtech.html" role="button">Записаться »</a></p>
+                </div>
+            </div>
+
+            <hr>
+
+        </div> <!-- /container -->
+    </main>
+</div>

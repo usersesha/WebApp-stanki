@@ -1,0 +1,51 @@
+﻿@model stanochki.Models.LoginModel
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Вход</h2>
+
+<section id="loginForm" class="form-signin">
+    @using (Html.BeginForm("Authorize", "Home", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+        <h4>Используйте для входа локальную учетную запись.</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(m => m.Login, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Login, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Login, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Pass, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.PasswordFor(m => m.Pass, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Pass, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <br />
+        @*<div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <div class="checkbox">
+                        @Html.CheckBoxFor(m => m.RememberMe)
+                        @Html.LabelFor(m => m.RememberMe)
+                    </div>
+                </div>
+            </div>*@
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input  type="submit" value="Выполнить вход" class="btn btn-outline-primary"/>
+            </div>
+        </div><br />
+        <p>
+            @Html.ActionLink("Регистрация", "Reg", null, new { @class = "button btn btn-sm btn-outline-secondary" })
+        </p>
+        @* Включите, когда будет включено подтверждение учетной записи для функции сброса пароля
+            <p>
+                @Html.ActionLink("Забыли пароль?", "ForgotPassword")
+            </p>*@
+    }
+</section>

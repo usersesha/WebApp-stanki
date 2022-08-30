@@ -1,0 +1,82 @@
+﻿body {
+    background-color: #EBECFA;
+}
+@font-face {
+    font-family: 'Raleway', sans-serif;
+}
+svg{
+    color:cornflowerblue;
+}
+.Text{
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
+html {
+    font-family: 'Raleway', sans-serif;
+}
+.left-panel {
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 100%;
+    width: 20%;
+    color: inherit;
+    background-color: #eeeeee;
+}
+
+.container_slider_css {
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+}
+.photo_slider_css {
+    position: absolute;
+    animation: round 16s infinite;
+    opacity: 0;
+    width: 100%;
+}
+
+@keyframes round {
+    25% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+img:nth-child(1) {
+    animation-delay: 12s;
+}
+
+img:nth-child(2) {
+    animation-delay: 8s;
+}
+
+img:nth-child(3) {
+    animation-delay: 4s;
+}
+
+img:nth-child(4) {
+    animation-delay: 0;
+}
+
+@media(min-width:0px) and (max-width:320px) {
+    .container_slider_css {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media(min-width:321px) and (max-width:480px) {
+    .container_slider_css {
+        width: 100%;
+        height: 100%;
+    }
+}
+

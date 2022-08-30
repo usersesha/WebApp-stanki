@@ -1,0 +1,131 @@
+﻿@{
+    ViewBag.Title = "Главная";
+}
+
+@*<div class="jumbotron">
+    <h1>ASP.NET</h1>*@
+
+<div>
+    <br />
+    <p class="lead">@ViewBag.Message1</p>
+    @*<p class="lead">
+            <a href="@Url.Action("LogOut", "Home")"> @ViewBag.Message2 </a>
+        </p>*@
+</div>
+<main class="container mt-5">
+    <div class="container_slider_css">
+        <img class="photo_slider_css" src="https://bpk-spb.ru/upload/iblock/7d3/7d3e29be7ad0063de990c409e013d35a.png" alt="">
+        <img class="photo_slider_css" src="https://bpk-spb.ru/upload/iblock/6cf/6cf62f2650d2ff9f15b51d7953c02c75.png" alt="">
+        <img class="photo_slider_css" src="https://bpk-spb.ru/upload/iblock/988/9889f6babe1b996fdaeff43f1261de44.png" alt="">
+        <img class="photo_slider_css" src="https://bpk-spb.ru/upload/iblock/9dc/9dcfbac790a405e51ca9562de37a7eeb.png" alt="">
+    </div>
+    <div class="container marketing">
+        <div class="row text-center">
+            <h1>Наши работники</h1>
+        </div>
+        <!-- Three columns of text below the carousel -->
+        <div class="row container mt-5">
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="https://vplate.ru/images/article/orig/2021/01/kto-takoj-slesar-remontnik-i-chto-on-delaet-2.jpg" alt="">
+                </svg>
+                <br /><br /><br />
+                <h2>Абрамов Анатолий</h2><br />
+                <p>Слесарь-ремонтник высшего разряда. Анатолий имеет семнадцать благодарностей от администрации города за починку самых сложных станков. На сегодняшний день, благодаря Анатолию, наша компания сотрудничает с 24 юридическими лицами на долгосрочной основе.</p>
+
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="https://vplate.ru/images/article/orig/2021/01/kto-takoj-slesar-remontnik-i-chto-on-delaet-28.jpg" alt="">
+                </svg><br /><br /><br />
+                <h2>Зюганов Виктор</h2><br />
+                <p>Специалист в токарных и фрезерных станках. Виктор имеет большой стаж работы - 73 года. Мы гордимся работой с Виктором, ведь он известен как самый опытный работник Санкт-Петербурга!</p>
+            </div>
+
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="https://vplate.ru/images/article/orig/2021/01/kto-takoj-slesar-remontnik-i-chto-on-delaet-11.jpg" alt="">
+                </svg><br /><br /><br />
+                <h2>Балгаров Андрей</h2><br />
+                <p>Андрей - начинающий специалист. Именно по этому на работу Андрея распространяется гарантия 2 года. Совсем скоро ему исполнится 15. Он плохо сохранился... </p>
+
+            </div>
+            <div class="container mt-5">
+                @if (Session["Rights"] != null)
+                {
+                    @Html.ActionLink("Перейти к выбору услуги", "Index", "Prices", null, new { @class = " w-100 btn btn-outline-primary col-lg-4 h1" })
+                }</div>
+            </div><!-- /.row -->
+
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">РЕМОНТ СТАНКОВ С ЧПУ. <span class="text-muted">Виды ремонта.</span></h2>
+                    <p class="lead">
+                        В период пользования станками, независимо от того, какая нагрузка на них оказывалась,
+                        происходит изменение их некоторых параметров, что приводит к понижению качества, но увеличению времени
+                        на производство продукции. И все это приводит к тому, что станок выходит из строя, и дальше им пользоваться
+                        не представляется возможным. Для того чтобы отсрочить изнашивание и выход из строя нужно периодически проводить
+                        обслуживание и ремонтировать оборудование.
+                    </p>
+                </div>
+                <div class="col-md-5 position: absolute;">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                             src="https://bpk-spb.ru/upload/iblock/fe0/fe0fb6a3974d2895367857d9a773d2ff.png" alt="">
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">РЕМОНТ МЕТАЛЛОРЕЖУЩИХ СТАНКОВ. <span class="text-muted">Обслуживание и ремонт.</span></h2>
+                    <p class="lead">
+                        Качество резки металла играет ключевую роль при изготовлении любых металлоконструкций, деталей
+                        или отдельных элементов. Поэтому к оборудованию, с помощью которого выполняется этот процесс, предъявляются повышенные
+                        требования. Важное значение при этом придается не только правильной эксплуатации, но и тому, чтобы ремонт металлорежущих
+                        станков выполнялся на должном уровне. Квалифицированную помощь по ремонту всех видов и типов металлорежущего оборудования
+                        в Северной столице и близлежащей области оказывают мастера нашей компании.
+                    </p>
+                </div>
+                <div class="col-md-5 position: absolute;">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                         src="https://bpk-spb.ru/upload/iblock/a62/a626f133082f0e62b97f486780ca04c6.png" alt="">
+                    
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">РЕМОНТ ТОКАРНЫХ СТАНКОВ. <span class="text-muted">Капитальный ремонт токарных станков.</span></h2>
+                    <p class="lead">
+                        Залогом долгосрочной работы токарных станков является их правильная эксплуатация и своевременный ремонт. Важнейшее условие последнего – выполнение всех ремонтных работ специалистами, которые не только хорошо знают теорию, но и имеют значительный практический опыт.
+                        Если в числе оборудования Вашего предприятия имеются токарные станки, нуждающиеся в починке, и Вы ищете высококвалифицированных мастеров, которые смогут реанимировать агрегаты, обращайтесь в нашу компанию!
+                    </p>
+                </div>
+                <div class="col-md-5 position: absolute;">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                             src="https://bpk-spb.ru/upload/iblock/988/9889f6babe1b996fdaeff43f1261de44.png" alt="">
+                    
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+        </div>
+</main>
+
+@*<div>
+
+    @Html.ActionLink("List of Prices", "Index", "Prices")<br />
+    @Html.ActionLink("List of Users", "Index", "Users")
+
+</div>*@
+@*@if (Session["Rights"].Equals("user"))
+{ }
+else { }*@

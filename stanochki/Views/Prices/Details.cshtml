@@ -1,0 +1,96 @@
+﻿@model stanochki.Models.Prices
+
+@{
+    ViewBag.Title = "Подробнее";
+}
+
+<h2>Подробнее</h2>
+<div class="container">
+    <div class="d-flex flex-row justify-content-between">
+        <div class="block" style="width: 50%;">
+            @{ byte[] photo = Model.photo;
+                string imageSrc = null;
+                if (photo != null)
+                {
+                    MemoryStream ms = new MemoryStream();
+                    ms.Write(photo, 0, photo.Length);
+                    string imageBase64 = Convert.ToBase64String(ms.ToArray());
+                    imageSrc = string.Format("data:image/jpg;base64,{0}", imageBase64);
+                    string base64String = Convert.ToBase64String(photo, 0, photo.Length);
+                }
+            }
+
+            <img src="@imageSrc" alt="Image" style="border-radius: 10px;  width: 90%;"/>
+        </div>
+        <div class="block" style="width: 50%;">
+            <dl class="dl-horizontal">
+                <dt>
+                    <p>Станок</p>
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.machine)
+                </dd>
+
+                <dt>
+                    <p>Вид ремонта</p>
+                    @*@Html.DisplayNameFor(model => model.repair)*@
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.repair)
+                </dd>
+
+                <dt>
+                    <p>Цена</p>
+                    @* @Html.DisplayNameFor(model => model.price)*@
+                </dt>
+
+                <dd>
+                    <p>@Html.DisplayFor(model => model.price) руб.</p>
+                </dd>
+
+                <dt>
+                    <p>Подробнее:</p>
+                    @* @Html.DisplayNameFor(model => model.descript)*@
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.descript)
+                </dd>
+
+                @*<dt>
+                @Html.DisplayNameFor(model => model.photo)
+            </dt>*@
+
+            </dl>
+            @if (Session["Rights"] != null)
+            {
+                if (Session["Rights"].Equals("user"))
+                {
+                    @Html.ActionLink("Оформить заказ услуги", "Create", "Requests", new { id = @Html.DisplayFor(model => model.id_price) }
+                              , new { @class = "btn btn-outline-secondary" })
+                }
+            }
+            </div><br /><br />
+
+        @if (Session["Rights"] != null)
+        {
+            if (Session["Rights"].Equals("worker"))
+            {
+            <p>
+                @Html.ActionLink("Изменить", "Edit", new { id = Model.id_price }) |
+                @Html.ActionLink("Назад", "Index", null, new { @class = "btn btn-outline-secondary" })
+            </p>
+            }
+        }
+        else
+        {
+            <p>
+                @Html.ActionLink("Назад", "Index", null, new { @class = "btn btn-outline-secondary" })
+            </p>
+        }
+    </div>
+</div>
+           
+        @*machine = @Html.DisplayFor(model => model.machine),
+            repair = @Html.DisplayFor(model => model.repair), prise = @Html.DisplayFor(model => model.price),*@

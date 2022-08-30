@@ -1,0 +1,50 @@
+﻿@model stanochki.Models.Entry
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Entry</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.pass)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pass)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.role)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.role)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.login)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.login)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Workwith.machine)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Workwith.machine)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
