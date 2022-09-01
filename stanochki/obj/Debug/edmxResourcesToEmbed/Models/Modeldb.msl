@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище DataBModelContainer" CdmEntityContainer="DataBEntities">
+    <EntitySetMapping Name="Entry">
+      <EntityTypeMapping TypeName="DataBModel.Entry">
+        <MappingFragment StoreEntitySet="Entry">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="login" ColumnName="login" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Offices">
+      <EntityTypeMapping TypeName="DataBModel.Offices">
+        <MappingFragment StoreEntitySet="Offices">
+          <ScalarProperty Name="id_office" ColumnName="id_office" />
+          <ScalarProperty Name="region" ColumnName="region" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="schedule" ColumnName="schedule" />
+          <ScalarProperty Name="number" ColumnName="number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Prices">
+      <EntityTypeMapping TypeName="DataBModel.Prices">
+        <MappingFragment StoreEntitySet="Prices">
+          <ScalarProperty Name="id_price" ColumnName="id_price" />
+          <ScalarProperty Name="machine" ColumnName="machine" />
+          <ScalarProperty Name="repair" ColumnName="repair" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="descript" ColumnName="descript" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Requests">
+      <EntityTypeMapping TypeName="DataBModel.Requests">
+        <MappingFragment StoreEntitySet="Requests">
+          <ScalarProperty Name="id_req" ColumnName="id_req" />
+          <ScalarProperty Name="id_price" ColumnName="id_price" />
+          <ScalarProperty Name="client" ColumnName="client" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="DataBModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="surn" ColumnName="surn" />
+          <ScalarProperty Name="middlen" ColumnName="middlen" />
+          <ScalarProperty Name="office" ColumnName="office" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="number" ColumnName="number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Workwith">
+      <EntityTypeMapping TypeName="DataBModel.Workwith">
+        <MappingFragment StoreEntitySet="Workwith">
+          <ScalarProperty Name="worker" ColumnName="worker" />
+          <ScalarProperty Name="machine" ColumnName="machine" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Insert_User" FunctionName="Хранилище DataBModel.Insert_User" />
+  </EntityContainerMapping>
+</Mapping>

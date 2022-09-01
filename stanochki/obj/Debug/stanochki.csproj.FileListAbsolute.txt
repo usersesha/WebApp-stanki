@@ -1,0 +1,200 @@
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/stanochki.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/stanochki.pdb
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/csc.exe
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/csc.exe.config
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/csc.rsp
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/csi.exe
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/csi.exe.config
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/csi.rsp
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/Microsoft.CSharp.Core.targets
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/Microsoft.Managed.Core.targets
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/Microsoft.Win32.Primitives.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.AppContext.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Collections.Immutable.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Console.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Diagnostics.DiagnosticSource.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Diagnostics.StackTrace.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Globalization.Calendars.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.IO.Compression.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.IO.Compression.ZipFile.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.IO.FileSystem.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.IO.FileSystem.Primitives.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Net.Http.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Net.Sockets.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Reflection.Metadata.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Security.Cryptography.Encoding.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Security.Cryptography.Primitives.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Text.Encoding.CodePages.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Threading.Tasks.Extensions.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.ValueTuple.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Xml.ReaderWriter.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Xml.XmlDocument.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Xml.XPath.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/System.Xml.XPath.XDocument.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/vbc.exe
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/vbc.exe.config
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/vbc.rsp
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/VBCSCompiler.exe
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/roslyn/VBCSCompiler.exe.config
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/Antlr3.Runtime.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ClosedXML.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/DocumentFormat.OpenXml.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/EntityFramework.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/EntityFramework.SqlServer.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ExcelNumberFormat.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/Microsoft.Web.Infrastructure.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/Newtonsoft.Json.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.IO.FileSystem.Primitives.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.IO.Packaging.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.Helpers.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.Mvc.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.Optimization.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.Razor.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.WebPages.Deployment.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.WebPages.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.WebPages.Razor.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/WebGrease.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ClosedXML.pdb
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ClosedXML.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/DocumentFormat.OpenXml.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/EntityFramework.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/EntityFramework.SqlServer.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ExcelNumberFormat.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.Helpers.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.Mvc.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.Optimization.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.Razor.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.WebPages.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.WebPages.Deployment.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/System.Web.WebPages.Razor.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/Newtonsoft.Json.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/Antlr3.Runtime.pdb
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ru/EntityFramework.resources.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ru/EntityFramework.SqlServer.resources.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ru/System.Web.Helpers.resources.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ru/System.Web.Mvc.resources.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ru/System.Web.Optimization.resources.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ru/System.Web.Razor.resources.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ru/System.Web.WebPages.resources.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ru/System.Web.WebPages.Deployment.resources.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/bin/ru/System.Web.WebPages.Razor.resources.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/obj/Debug/stanochki.csproj.AssemblyReference.cache
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/obj/Debug/stanochki.csproj.CoreCompileInputs.cache
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/obj/Debug/stanochki.csproj.CopyComplete
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/obj/Debug/stanochki.dll
+/Volumes/[C] Windows 10 (64).hidden/Users/macbook/Desktop/stanochki/stanochki/obj/Debug/stanochki.pdb
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\stanochki.dll.config
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\stanochki.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\stanochki.pdb
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\csc.exe
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\csc.exe.config
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\csc.rsp
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\csi.exe
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\csi.exe.config
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\csi.rsp
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.AppContext.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Console.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.IO.Compression.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Net.Http.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Net.Sockets.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.ValueTuple.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Xml.XPath.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\vbc.exe
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\vbc.exe.config
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\vbc.rsp
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\VBCSCompiler.exe
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\Antlr3.Runtime.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ClosedXML.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\DocumentFormat.OpenXml.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\EntityFramework.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\EntityFramework.SqlServer.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ExcelNumberFormat.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\Newtonsoft.Json.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.IO.Packaging.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.Helpers.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.Mvc.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.Optimization.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.Razor.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.WebPages.Deployment.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.WebPages.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.WebPages.Razor.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\WebGrease.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ClosedXML.pdb
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ClosedXML.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\DocumentFormat.OpenXml.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\EntityFramework.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\EntityFramework.SqlServer.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ExcelNumberFormat.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.Helpers.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.Mvc.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.Optimization.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.Razor.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.WebPages.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.WebPages.Deployment.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\System.Web.WebPages.Razor.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\Newtonsoft.Json.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\Antlr3.Runtime.pdb
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ru\EntityFramework.resources.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ru\System.Web.Razor.resources.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\obj\Debug\stanochki.csproj.CoreCompileInputs.cache
+C:\Users\macbook\Desktop\stanochki\stanochki\obj\Debug\stanochki.csproj.CopyComplete
+C:\Users\macbook\Desktop\stanochki\stanochki\obj\Debug\stanochki.dll
+C:\Users\macbook\Desktop\stanochki\stanochki\obj\Debug\stanochki.pdb
+C:\Users\macbook\Desktop\stanochki\stanochki\obj\Debug\stanochki.csprojAssemblyReference.cache

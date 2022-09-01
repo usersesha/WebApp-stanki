@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Entry">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="pass" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="role" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="login" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK_Client" FromRole="Entry" ToRole="Requests" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Entry" FromRole="Entry" ToRole="Users" />
+    <NavigationProperty Name="Requests1" Relationship="Self.FK_Status" FromRole="Entry" ToRole="Requests" />
+    <NavigationProperty Name="Workwith" Relationship="Self.FK_Worker" FromRole="Entry" ToRole="Workwith" />
+  </EntityType>
+  <EntityType Name="Offices">
+    <Key>
+      <PropertyRef Name="id_office" />
+    </Key>
+    <Property Name="id_office" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="region" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="schedule" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="number" Type="String" MaxLength="11" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Offices" FromRole="Offices" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Prices">
+    <Key>
+      <PropertyRef Name="id_price" />
+    </Key>
+    <Property Name="id_price" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="machine" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="repair" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="price" Type="Int32" Nullable="false" />
+    <Property Name="descript" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK_Price" FromRole="Prices" ToRole="Requests" />
+  </EntityType>
+  <EntityType Name="Requests">
+    <Key>
+      <PropertyRef Name="id_req" />
+    </Key>
+    <Property Name="id_req" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_price" Type="Int32" Nullable="false" />
+    <Property Name="client" Type="Int32" Nullable="false" />
+    <Property Name="status" Type="Int32" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Entry" Relationship="Self.FK_Client" FromRole="Requests" ToRole="Entry" />
+    <NavigationProperty Name="Entry1" Relationship="Self.FK_Status" FromRole="Requests" ToRole="Entry" />
+    <NavigationProperty Name="Prices" Relationship="Self.FK_Price" FromRole="Requests" ToRole="Prices" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id_user" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="surn" />
+      <PropertyRef Name="number" />
+    </Key>
+    <Property Name="id_user" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="surn" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="middlen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="office" Type="Int32" />
+    <Property Name="address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="number" Type="String" MaxLength="11" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Entry" Relationship="Self.FK_Entry" FromRole="Users" ToRole="Entry" />
+    <NavigationProperty Name="Offices" Relationship="Self.FK_Offices" FromRole="Users" ToRole="Offices" />
+  </EntityType>
+  <EntityType Name="Workwith">
+    <Key>
+      <PropertyRef Name="worker" />
+    </Key>
+    <Property Name="worker" Type="Int32" Nullable="false" />
+    <Property Name="machine" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Entry" Relationship="Self.FK_Worker" FromRole="Workwith" ToRole="Entry" />
+  </EntityType>
+  <Association Name="FK_Client">
+    <End Role="Entry" Type="Self.Entry" Multiplicity="1" />
+    <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entry">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Requests">
+        <PropertyRef Name="client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Entry">
+    <End Role="Entry" Type="Self.Entry" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entry">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Status">
+    <End Role="Entry" Type="Self.Entry" Multiplicity="0..1" />
+    <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entry">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Requests">
+        <PropertyRef Name="status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Worker">
+    <End Role="Entry" Type="Self.Entry" Multiplicity="1" />
+    <End Role="Workwith" Type="Self.Workwith" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Entry">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Workwith">
+        <PropertyRef Name="worker" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Offices">
+    <End Role="Offices" Type="Self.Offices" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Offices">
+        <PropertyRef Name="id_office" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="office" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Price">
+    <End Role="Prices" Type="Self.Prices" Multiplicity="1" />
+    <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Prices">
+        <PropertyRef Name="id_price" />
+      </Principal>
+      <Dependent Role="Requests">
+        <PropertyRef Name="id_price" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DataBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Entry" EntityType="Self.Entry" />
+    <EntitySet Name="Offices" EntityType="Self.Offices" />
+    <EntitySet Name="Prices" EntityType="Self.Prices" />
+    <EntitySet Name="Requests" EntityType="Self.Requests" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <EntitySet Name="Workwith" EntityType="Self.Workwith" />
+    <AssociationSet Name="FK_Client" Association="Self.FK_Client">
+      <End Role="Entry" EntitySet="Entry" />
+      <End Role="Requests" EntitySet="Requests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Entry" Association="Self.FK_Entry">
+      <End Role="Entry" EntitySet="Entry" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Status" Association="Self.FK_Status">
+      <End Role="Entry" EntitySet="Entry" />
+      <End Role="Requests" EntitySet="Requests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Worker" Association="Self.FK_Worker">
+      <End Role="Entry" EntitySet="Entry" />
+      <End Role="Workwith" EntitySet="Workwith" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Offices" Association="Self.FK_Offices">
+      <End Role="Offices" EntitySet="Offices" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Price" Association="Self.FK_Price">
+      <End Role="Prices" EntitySet="Prices" />
+      <End Role="Requests" EntitySet="Requests" />
+    </AssociationSet>
+    <FunctionImport Name="Insert_User" ReturnType="Collection(Int32)">
+      <Parameter Name="login" Mode="In" Type="String" />
+      <Parameter Name="name" Mode="In" Type="String" />
+      <Parameter Name="surn" Mode="In" Type="String" />
+      <Parameter Name="middlen" Mode="In" Type="String" />
+      <Parameter Name="address" Mode="In" Type="String" />
+      <Parameter Name="pass" Mode="In" Type="String" />
+      <Parameter Name="number" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>
